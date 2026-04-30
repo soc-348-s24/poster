@@ -24,4 +24,10 @@ And web page with an example.
 https://brentthorne.github.io/posterdown_html_showcase/
 
 
+To generate a pdf of your poster use
+
+```
+pagedown::chrome_print("myfile.Rmd")
+
+```
 
